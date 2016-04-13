@@ -21,7 +21,7 @@ body{
     text-align: center;
     cursor: defaut;
     color: buttontext;
-    background-color: buttonface;
+    background-color: transparent;
     box-sizing: border-box;
     padding: 2px 6px 3px;
     border: 2px outset buttonface;
@@ -29,7 +29,7 @@ body{
 }
 
 #hamburger img{
- width:26px;
+ width:35px;
  height:26px;
  background-color: transparent;
  
@@ -97,7 +97,7 @@ display: block;
 
 }
 
-ul{
+#menu ul{
 padding:0;
  margin:O;
  list-style-type:none;
@@ -107,12 +107,13 @@ padding:0;
 
 li{
  margin-left:10px;
- /*float:right;*/
+ 
  }
-ul li a {
+ 
+#menu ul li a {
  display:block;
  float:left;   
- width:70px;
+ width:auto;
  height:auto;
  background-color:transparent;
  color:black;
@@ -141,15 +142,32 @@ margin-top: -1px;
 }
 
 #footer{
-    background-color: white;
+    background-color:#262626 ;
     height:388px;
     
 }
 
-#footer #colonne1 ul li a{
-    font-family: cursive;
-        position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+
+#colonne1 ul li a{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+#colonne2 ul li a{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+#footer > div{
+    float:left;
 }

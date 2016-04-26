@@ -1,43 +1,45 @@
+
+#menu {
+background-color:#FFF;
+width: 100%;
+height:§5px;
+position:relative;
+}
+
 body{
+    background-color:#FFDB00;
     margin:0;
     padding:0;
 }
 
-#menu {
-    height:75px;
-}
-
 #contenu{
-    background-color:#FFDB00;
-    height:1101.570;
-    width:auto;
-    text-align:center;
-    
+position:relative;
+background-color:#FFDB00;
+text-align:center;
+float:left;
+width: 100%;
 }
-
 
 #hamburger{
-    align-items: flex-start;
-    text-align: center;
-    cursor: defaut;
-    color: buttontext;
-    background-color: transparent;
-    box-sizing: border-box;
-    padding: 2px 6px 3px;
-    border: 2px outset buttonface;
-    border-color:transparent;
+align-items: flex-start;
+text-align: center;
+cursor: defaut;
+color: buttontext;
+background-color: transparent;
+box-sizing: border-box;
+padding: 2px 6px 3px;
+border: 2px outset buttonface;
+border-color:transparent;
 }
 
 #hamburger img{
- width:35px;
- height:26px;
- background-color: transparent;
- 
+width:35px;
+height:26px;
+background-color: transparent;
 }
 
 p {
 color: rgb(38, 38, 38);
-display: none;
 font-family: 'Apercu Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 15px;
 height: auto;
@@ -46,19 +48,20 @@ width: auto;
 }
 
 h2{
-    font-family: sans-serif;
-    color: white;
-    text-align:center;
-    font-size:50px;
+font-family: sans-serif;
+color: white;
+text-align:center;
+font-size:45px;
+line-height:48px;
 }
 
 h3{
-    font-family: sans-serif;
-    color: black;
-    text-align:center;
-    font-size:30px;
-    margin-left: 20%;
-     margin-right: 20%;
+font-family: sans-serif;color: black;
+text-align:center;
+font-size:26px;
+margin-left: 20%;
+margin-right: 20%;
+line-height:32px;
 }
 
 button{
@@ -74,53 +77,42 @@ background-color:transparent;
 border-color:transparent;
 margin-top: 20px;
 color : white;
-
-
-
-} 
+}
 
 #contenu button{
 display: block;
-  margin : auto;
-  
-} 
-
+margin : auto;
+}
 
 #contenu img{
-   
-   width:359.990px;
-	height: auto;
-    
-    padding:30px;
-
- 
-
+width:359.990px;
+height: auto;
+padding:30px;
 }
 
 #menu ul{
 padding:0;
- margin:O;
- list-style-type:none;
- width:500px;
- float: right;
+margin:O;
+list-style-type:none;
+width:500px;
+float: right;
 }
 
 li{
- margin-left:10px;
- 
- }
- 
+margin-left:10px;
+}
+
 #menu ul li a {
- display:block;
- float:left;   
- width:auto;
- height:auto;
- background-color:transparent;
- color:black;
- text-decoration:none;
- text-align:center;
- border:0px;
- text-transform: uppercase;
+display:block;
+float:left;
+width:auto;
+height:auto;
+background-color:transparent;
+color:black;
+text-decoration:none;
+text-align:center;
+border:0px;
+text-transform: uppercase;
 font-size: 14px;
 letter-spacing: 1px;
 font-family: sans-serif;
@@ -128,46 +120,173 @@ font-weight: normal;
 color: #262626;
 padding: 6px 24px;
 margin-top: -1px;
-    
 }
-
 #login{
-    background-color: #262626;
+margin-top: -1px;
+background-color: #262626;
 border-radius: 2px;
 border-color: transparent;
 border-width: 0px;
+}
+
+/* footer */
+#footer{
+background-color:#262626 ;
+height:388px;
+float:left;
+width:100%;
+
+}
+#colonne1 ul li a{
 color:white;
-padding: 6px 24px;
-margin-top: -1px;
+background-color: transparent;
+text-decoration: none;
+list-style-type: none;
+padding-left: 0;
+font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+}
+#colonne2 ul li a{
+color:white;
+background-color: transparent;
+text-decoration: none;
+list-style-type: none;
+padding-left: 0;font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+}
+#colonne3 p{
+color:white;
+background-color: transparent;
+text-decoration: none;
+list-style-type: none;
+padding-left: 0;
+font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
 }
 
 #footer{
-    background-color:#262626 ;
-    height:388px;
-    
+background-color:#262626 ;
+height:388px;
+float:left;
+width:100%;
 }
 
+#footer ul li {
+	list-style-type:none;
+}
 
+#hautfooter {
+	width:100%;
+	float:left;
+}
 #colonne1 ul li a{
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 0;
-    font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
+color:white;
+background-color: transparent;
+text-decoration: none;
+list-style-type: none;
+padding-left: 0;
+font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
 }
-
-
 #colonne2 ul li a{
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 0;
-    font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
+
+color:grey;
+background-color: transparent;
+text-decoration: none;
+list-style-type: none;
+padding-left: 0;font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
 }
-#footer > div{
-    float:left;
+#colonne3 p{
+color:white;
+background-color: transparent;
+text-decoration: none;
+list-style-type: none;
+padding-left: 0;
+font-family: "Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+}
+
+#logofooter{
+width:262.5;
+height:60px;
+padding-right: 15px;
+padding-left: 15px
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px ;
+float: left;
+}
+#logofooter img{
+width:25%;
+float: left;
+position: relative;
+min-height: 1px;
+padding:15px;
+}
+
+#colonne1{
+width:25%;
+float:left;
+width:262.5px;
+height:73px;
+padding:15px;
+}
+#colonne2{
+width:25%;
+float:left;
+width:262.5px;
+height:115px;
+padding:15px;
+}
+
+#colonne3{
+color: white;
+width:25%;
+float:left;
+height:25px;
+padding-top:15px;
+}
+
+#colonne3 ul {
+padding-left: 0;
+}
+
+#colonne3 ul li {
+display: inline-block;
+}
+
+#colonne3 img {
+	    max-width: 40px;
+    min-width: 40px;
+}
+
+#bas footer ul li {
+     text-decoration: none;
+}
+
+#basfooter{
+    float:right;
+box-sizing: border-box
+margin-top: 4em;
+background-color: #262626;
+color: #FFF;
+font-family:"Apercu Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+padding: 2em 0em;
+list-style-type: none
+font-size:15px;
+
+
+
+}
+
+span{
+    float:right;
+    font-size:12px;
+    margin: 0;
+padding: 0;
+font-size: 70%;
+line-height: 1.4em;
+color:grey;
 }
